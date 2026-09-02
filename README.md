@@ -12,12 +12,19 @@ A curated directory of open mathematics problem databases, subject-specific prob
 | AI Math Open Problems | [Website](https://rybindmitry.github.io/problems/index.html) | Open problems used to track AI capabilities in mathematics, with problem status and authorship information | Actively maintained |
 | Erdős Problems | [Website](https://www.erdosproblems.com/) · [GitHub](https://github.com/teorth/erdosproblems) | Number theory, combinatorics, graph theory, and discrete geometry problems posed by Paul Erdős, with identifiers, status, tags, references, and some bounties | Structured YAML data is available on GitHub |
 | AIM Problem Lists | [Website](https://aimath.org/problemlists/) | Problem lists from American Institute of Mathematics workshops, covering algebra, analysis, number theory, geometry, probability, topology, mathematical physics, and more | Expert-curated workshop lists |
-| AMR Problem Lists | [Website](https://amathr.org/problems/) | A directory linking Hilbert, Smale, Arnold, AIM, and many subject-specific problem collections | Useful as a directory of directories |
+| AMR Problem Lists | [Website](https://amathr.org/problems/) | A large meta-directory linking classical lists and field-specific collections across algebra, geometry, analysis, dynamics, logic, number theory, probability, topology, and mathematical physics | Useful as a directory of directories |
+| ConjectureBench | [GitHub](https://github.com/bespokelabsai/conjecture-bench) | Nearly 15,000 source-linked records, including curated conjectures, problem families, and extended catalogs, with JSON schemas and searchable tables | Status observations are source-attributed, not independently verified |
+| Solve | [Website](https://www.solveall.org/) | Community-curated research problems, with particular coverage of statistics, probability, learning theory, optimization, applied mathematics, and theoretical computer science | New platform and live AI-reasoning benchmark |
+| SciLag | [Website](https://www.scilag.net/) | Collaborative, cross-disciplinary database where researchers can post, discover, and discuss research-level open problems | Community submissions require source and status review |
+| OpenQED | [Website](https://openqed.org/) | Open mathematics problems with subproblems, subject classifications, and Lean 4 formalization support | New platform; independently verify records and formalizations |
+| Litt Problems | [Website](https://www.problemsilike.com/) | Daniel Litt's curated research problems, with history, references, difficulty notes, discussion, and Lean-formalizability assessments | Personal, deliberately selective collection |
 | MathDB | [Database](https://mathdb.com/) · [About](https://mathdb.com/about) | Cross-disciplinary database tracking open problems, known progress, participants, AI attempts, and resolution claims | New platform; independently verify records |
 | UnsolvedMath | [Home](https://www.unsolvedmath.com/) · [All problems](https://www.unsolvedmath.com/problems) · [Collections](https://www.unsolvedmath.com/sets) | Aggregates AIM, AMR, Erdős, Kourovka, Kirby, Hilbert, Smale, Ben Green, and other collections | Some status reviews are machine-generated |
 | TheoremDB | [Home](https://theoremdb.org/) · [Problems](https://theoremdb.org/problems/) | A machine-mathematics workspace incorporating problems from MathOverflow, Erdős Problems, AIM, the Kourovka Notebook, and Formal Conjectures | New platform; independently verify records |
 | Open Problems in Mathematics | [Problem list](https://openproblems.lovable.app/problems) | Cross-disciplinary collection organized using arXiv and MSC subject areas | New aggregation platform |
 | Math Conjectures | [Home](https://mathconjectures.com/) · [All conjectures](https://www.mathconjectures.com/conjectures) | Open conjectures organized by field and significance, with statements, references, and notes on what remains open | New platform; independently verify records |
+| Prize Problem Ledger | [Live catalog](https://prizeproblems.org/) · [GitHub](https://github.com/rishigajjala/math-prize-problems) | Source-linked catalog of open mathematical problems with cash rewards, permanent identifiers, reward terms, and differentiated verification labels | Rewards and sponsor terms still require checking at the primary source |
+| Conjecture Fieldbook | [Atlas](https://fieldbook.kineticgain.com/atlas/) | Revision-pinned source placements and reviewed dossiers organized by mathematical area | Early-stage project; many records are discovery aids rather than reviewed dossiers |
 | Open Problem Garden | [IRMACS site](https://garden.irmacs.sfu.ca/) · [Current site](https://www.openproblemgarden.org/) | Long-running open-problem wiki spanning algebra, graph theory, geometry, number theory, topology, theoretical computer science, and more | Some material is stale or affected by spam |
 | Wolfram MathWorld | [Open Problems](https://mathworld.wolfram.com/OpenProblems.html) · [Unsolved Problems](https://mathworld.wolfram.com/UnsolvedProblems.html) | Encyclopedic indexes of famous open problems and classical problem lists | Useful for background and references |
 | Wikipedia | [Unsolved problems in mathematics](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics) · [List of conjectures](https://en.wikipedia.org/wiki/List_of_conjectures) · [Lists of problems](https://en.wikipedia.org/wiki/Lists_of_problems) | Cross-disciplinary entry points linking to subject-specific lists | Use as an index, not as final status evidence |
@@ -27,10 +34,16 @@ A curated directory of open mathematics problem databases, subject-specific prob
 | Name | Links | Scope | Notes |
 | --- | --- | --- | --- |
 | Formal Conjectures | [Website](https://google-deepmind.github.io/formal-conjectures/) · [GitHub](https://github.com/google-deepmind/formal-conjectures) | Google DeepMind's Lean 4 collection sourced from Erdős Problems, OEIS, MathOverflow, papers, and classical lists | Lean 4 |
+| FrontierMath: Open Problems | [Problem explorer](https://epoch.ai/frontiermath/open-problems) | Epoch AI's maintained collection of research problems with filters, status changes, downloadable data, and bespoke computational verifiers | Verifiers are not generally open; verify claimed solutions independently |
+| HorizonMath | [Website](https://ewang26.github.io/HorizonMath/) · [GitHub](https://github.com/ewang26/HorizonMath) | 101 computational and applied mathematics problems across eight domains, including 91 unsolved problems and open automated evaluation code | Research benchmark; some proposed improvements await expert review |
+| BuddenBench | [GitHub](https://github.com/maxvonhippel/budden-bench) | Machine-readable benchmark drawn from open algebra, geometry, number theory, combinatorics, analysis, and PDE problem lists, with GAP and Lean tooling | AI-generated artifacts may be pending human review |
+| ASI Prize | [Verified results and problem index](https://asiprize.com/verified/greens-problem-24/) | Formal-proof benchmark drawing 300 conjectures from Erdős, Green, OEIS, Millennium, and other sources | Treat formal proof claims and source-statement fidelity as separate checks |
 | Conjectures.io | [Problems](https://conjectures.io/problems) · [How it works](https://conjectures.io/how-it-works) | Publishes pinned Lean statements and supports proof, counterexample, and bounty tasks | Statement fidelity still requires review |
 | Conjectura | [Problems](https://conjectura.org/problems) | Natural-language questions paired with canonical Lean APIs across algebra, analysis, combinatorics, graph theory, and number theory | Beta |
 | Satoshi's Razor | [Website](https://razor.mempoolsurfer.com/) | Registry of pinned Lean statements with open/solved status, attempts, and event histories | Experimental platform |
 | Open Math Problems Tier List | [GitHub](https://github.com/evand/open-math-problems) | Tiered list of open problems with links to Wikipedia, Lean formalizations, and prediction markets | Community project |
+| Open Conjecture Formalizations | [GitHub](https://github.com/SamuelSchlesinger/open-conjecture-formalizations) | Lean 4 formalizations plus a field-organized index of notable open conjectures | Small AI-assisted community project |
+| VibeMath | [Live site](https://cyanseek.github.io/VibeMath/) · [GitHub](https://github.com/cyanseek/VibeMath) | Agent-readable records of open problems, AI attempts, partial progress, competing status claims, and verification evidence | Very early-stage; explicitly does not yet provide broad coverage |
 
 ## Number Theory, Combinatorics, Graph Theory, and Discrete Geometry
 
@@ -42,20 +55,29 @@ A curated directory of open mathematics problem databases, subject-specific prob
 | Egres Open | [Wiki](https://lemon.cs.elte.hu/egres/open/Main_Page) | Open-problem forum maintained by the Egerváry Research Group for the combinatorial optimization community |
 | Open Problems in Algebraic Combinatorics | [OPAC](https://realopacblog.wordpress.com/) | Community problem blog with mathematical background, attribution, and references |
 | The Open Problems Project | [TOPP website](https://topp.openproblem.net/) · [Complete PDF](https://topp.openproblem.net/master.pdf) | Numbered and categorized problems in discrete and computational geometry |
+| Digital Geometry and Topology | [IAPR TC18 list](https://tc18.org/openProblems.html) | Numbered problem-and-response archive in digital geometry, digital topology, image analysis, and mathematical morphology |
+| Optimization Constants in Mathematics | [GitHub](https://github.com/teorth/optimizationproblems) | Crowdsourced, numbered database of actively studied constants and the best known upper and lower bounds across many fields; curated by Terence Tao, Paata Ivanisvili, and Damek Davis |
 
-## Algebra, Logic, Topology, Dynamical Systems, and Analysis
+## Algebra, Logic, Topology, Dynamical Systems, Analysis, and Probability
 
 | Name | Links | Scope |
 | --- | --- | --- |
 | Kourovka Notebook | [Website and latest edition](https://kourovkanotebookorg.wordpress.com/) | Long-running collection of unsolved problems in group theory, including updates and a solved-problem archive |
 | Open Problems in Group Theory | [Problem list](https://shpilrain.ccny.cuny.edu/gworld/problems/oproblems.html) | Open problems in combinatorial group theory |
+| Dniester Notebook | [English translation](https://citeseerx.ist.psu.edu/document?doi=8deec2f4be6e241a4d745708f970ef8f5a591a6a&repid=rep1&type=pdf) | Large historical collection of unsolved problems in rings, nonassociative algebra, and module theory; consult newer literature for current status |
 | Open Problems in Mathematical Logic | [Website](https://www.openlogicproblems.com/) | Model theory, set theory, computability, descriptive set theory, and proof complexity, including credible resolution attempts |
+| Open Problems in Inner Model Theory | [Ralf Schindler's lists](https://ivv5hpp.uni-muenster.de/u/rds/) · [Original web list](https://ivv5hpp.uni-muenster.de/u/rds/list.html) | Problem lists edited with John Steel and later workshop lists in inner model theory and set theory; the author page links newer 2014-2019 lists |
+| nLab: Open Problems in Category Theory | [Problem list](https://ncatlab.org/nlab/show/open%2Bproblems%2Bin%2Bcategory%2Btheory) | Literature-sourced questions in category theory, topos theory, higher category theory, and related areas; inspect revision history and cited papers |
 | Major Problems in Algebraic Topology | [Hovey problem list](https://www-users.cse.umn.edu/~tlawson/hovey/big.html) | Problems in algebraic topology and homotopy theory |
 | Kirby's Problems in Low-Dimensional Topology | [Author page](https://math.berkeley.edu/~kirby/) · [PDF](https://aimath.org/~farmer/tmp/kirbyproblems.pdf) | Classical large problem list covering knot theory, 3- and 4-manifolds, and low-dimensional topology |
 | K3: A New Problem List in Low-Dimensional Topology | [PDF](https://math.berkeley.edu/sites/default/files/surv-295-ruberman-watermarked-author-pdf.pdf) | A new generation of open problems following the Kirby lists |
 | Open Problems in Dynamical Systems | [Stony Brook directory](https://commack.math.stonybrook.edu/open-problems-dynamical-systems) | Links to problem lists in dynamical systems, ergodic theory, conformal dynamics, and low-dimensional dynamics |
 | Dynamical Systems and Related Fields | [Mike Hochman's directory](https://math.huji.ac.il/~mhochman/open-problems.html) | Resources for dynamical systems, ergodic theory, and selected probability problems |
 | OASIS Operator Algebra Resources | [Resources](https://operatoralgebras.org/resources.html) | Operator-algebra problem lists, AIM workshop lists, and historical resources |
+| Jesse Peterson: Open Problems in Operator Algebras | [Problem list](https://www.math.uwaterloo.ca/~j37peter/problems.html) | Dated, numbered problems in von Neumann algebras, rigidity, free group factors, groups, ultrafilters, and approximation |
+| David Aldous: Open Research Problems | [Problem list](https://www.stat.berkeley.edu/~aldous/Research/OP/index.html) | Original problems in probability, random graphs, stochastic networks, Markov chains, percolation, and related areas; the author warns that updates are irregular |
+| Yuval Peres: Mathematical Open Problems | [Website](https://www.yp-open-problems.com/) | Expert-curated problems in probability, analysis, combinatorics, computing, Brownian motion, random walks, random matrices, and online learning |
+| Open Problems in Mathematical Physics | [Michael Aizenman's collection](https://web.math.princeton.edu/~aizenman/OpenProblems_MathPhys/) | Historical contributor-organized questions in quantum field theory, statistical physics, many-body systems, geometry, relativity, dynamics, and fluids; verify present status |
 
 ## Theoretical Computer Science, Optimization, Information Theory, and Quantum Theory
 
@@ -86,6 +108,7 @@ A curated directory of open mathematics problem databases, subject-specific prob
 - [MathOverflow: open-problems](https://mathoverflow.net/questions/tagged/open-problems?sort=active): research-level questions, known results, and reference discussions.
 - [MathOverflow: reference-request](https://mathoverflow.net/questions/tagged/reference-request?sort=active): requests for literature and subject-specific problem lists.
 - [Operations Research Stack Exchange: open-problem](https://or.stackexchange.com/questions/tagged/open-problem): open problems and discussions in operations research.
+- [Oberwolfach Reports](https://www.mfo.de/scientific-program/publications/owr): open-access reports from MFO workshops since 2004; reports can document open problems and new developments, but they are not a dedicated problem database.
 - [arXiv search: “open problems”](https://arxiv.org/search/?query=%22open+problems%22&searchtype=all): recently published problem-list papers and workshop reports.
 - [arXiv search: “problem list”](https://arxiv.org/search/?query=%22problem+list%22&searchtype=all): papers explicitly organized as problem lists.
 
